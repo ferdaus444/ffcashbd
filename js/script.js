@@ -36,15 +36,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }, 2600);
   }
 
-  /* ---------- Download / trailer buttons ---------- */
-
-  var trailerBtn = document.getElementById('trailerBtn');
-  if (trailerBtn) {
-    trailerBtn.addEventListener('click', function (e) {
-      e.preventDefault();
-      showToast('ট্রেইলার শীঘ্রই আসছে!');
-    });
-  }
+  /* ---------- Match join buttons ---------- */
 
   document.querySelectorAll('.join').forEach(function (btn) {
     btn.addEventListener('click', function () {
