@@ -272,7 +272,38 @@ button{ font:inherit; cursor:pointer; border:none; background:none; }
 .panel__meta{
   font-size:0.9rem;
   color:var(--ink-faint);
+  margin:0 0 20px;
+}
+
+.video-embed{
   margin:0 0 30px;
+}
+.video-embed__frame{
+  position:relative;
+  width:100%;
+  max-width:560px;
+  margin:0 auto;
+  padding-top:56.25%; /* 16:9 aspect ratio */
+  border-radius:var(--radius-md);
+  overflow:hidden;
+  box-shadow:0 14px 28px rgba(123,47,247,0.18);
+  background:#000;
+}
+.video-embed__frame iframe{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  border:0;
+}
+.video-embed__title{
+  margin:12px 0 0;
+  font-family:var(--font-display);
+  font-weight:600;
+  font-size:1rem;
+  color:var(--ink);
+  text-align:center;
 }
 
 .stats{
