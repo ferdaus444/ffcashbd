@@ -1,243 +1,230 @@
 <!DOCTYPE html>
-<html lang="bn">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="google-site-verification" content="4vV-IDZp1tij-gAdbcVoGgZsb4cz5sDtPAPfB9cniVU" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>FF Cash BD — বাংলাদেশের সেরা ফ্রি ফায়ার টুর্নামেন্ট অ্যাপ</title>
-<link rel="icon" type="image/png" href="assets/logo.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500;600;700;800&family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FF Cash BD – Bangladeshi Best Free Fire Tournaments App</title>
+  <meta name="description" content="Play Free Fire tournaments, win real cash prizes and top the leaderboard. Fast bKash and Nagad withdrawals, 24/7 support.">
+  <link rel="icon" type="image/png" href="assets/img/favicon.webp">
+
+  <!-- External: Google Font + Bootstrap 5 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Project stylesheet -->
+  <link href="assets/css/style.css" rel="stylesheet">
 </head>
 <body>
 
-<div class="bg-glow bg-glow--one" aria-hidden="true"></div>
-<div class="bg-glow bg-glow--two" aria-hidden="true"></div>
+  <!-- Inline SVG icon sprite (no icon font needed, so every icon always renders) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="i-trophy" viewBox="0 0 24 24"><path d="M8 4h8v5a4 4 0 0 1-8 0z"/><path d="M8 6H4v2a3 3 0 0 0 4 3"/><path d="M16 6h4v2a3 3 0 0 1-4 3"/><path d="M12 13v4M8 21h8M10 17h4"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><rect x="7" y="2" width="10" height="20" rx="2.5"/><path d="M11 18h2"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c3.2 3.2 3.2 14.8 0 18-3.2-3.2-3.2-14.8 0-18z"/></symbol>
+    <symbol id="i-coin" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10.8" stroke-width="1.3"/><g stroke-width="2"><path d="M10.8 7.6C9.2 6.6 7.8 8.2 9.8 9.8V16C9.8 19.4 13.8 19.8 15.8 14"/><path d="M6.4 12.6h5.2"/></g><circle cx="15.9" cy="13.4" r="1.15" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-ticket" viewBox="0 0 24 24"><path d="M3 7h18v3a2 2 0 0 0 0 4v3H3v-3a2 2 0 0 0 0-4z"/><path d="M14 7v10" stroke-dasharray="2 2"/></symbol>
+    <symbol id="i-headset" viewBox="0 0 24 24"><path d="M4 14v-2a8 8 0 0 1 16 0v2"/><rect x="3.5" y="14" width="4" height="6" rx="1.5"/><rect x="16.5" y="14" width="4" height="6" rx="1.5"/><path d="M20 20c0 1.5-2 2-5 2"/></symbol>
+    <symbol id="i-sparkles" viewBox="0 0 24 24"><path d="M10 3l2 6 6 2-6 2-2 6-2-6-6-2 6-2z"/><path d="M19 3v4M17 5h4"/></symbol>
+    <symbol id="i-cash" viewBox="4.5 5 14 16"><g stroke-width="2"><path d="M10.8 7.6C9.2 6.6 7.8 8.2 9.8 9.8V16C9.8 19.4 13.8 19.8 15.8 14"/><path d="M6.4 12.6h5.2"/></g><circle cx="15.9" cy="13.4" r="1.15" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-diagram" viewBox="0 0 24 24"><circle cx="6" cy="6" r="2.2"/><circle cx="18" cy="12" r="2.2"/><circle cx="6" cy="18" r="2.2"/><path d="M6 8.2v7.6"/><path d="M7.9 7.2l8.2 3.7"/><path d="M7.9 16.8l8.2-3.7"/></symbol>
+    <symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13 2L4 14h7l-1 8 10-13h-7z"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><path d="M5 20v-8M12 20V5M19 20V9" stroke-width="2.6"/></symbol>
+    <symbol id="i-gear" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><circle cx="12" cy="12" r="7.2" stroke-width="3.2" stroke-dasharray="3.1 3.1"/><circle cx="12" cy="12" r="5.6" stroke-width="1.6"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 21s-8-5.5-8-11a4.5 4.5 0 0 1 8-2.5A4.5 4.5 0 0 1 20 10c0 5.5-8 11-8 11z" fill="currentColor" stroke="none"/></symbol>
+    <!-- Social -->
+    <symbol id="i-telegram" viewBox="0 0 24 24"><path d="M22 2L11 13"/><path d="M22 2l-7 20-4-9-9-4z"/></symbol>
+    <symbol id="i-youtube" viewBox="0 0 24 24"><path d="M2.5 17a24.1 24.1 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.6 49.6 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.1 24.1 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.6 49.6 0 0 1-16.2 0A2 2 0 0 1 2.5 17z"/><path d="M10 15l5-3-5-3z"/></symbol>
+    <symbol id="i-facebook" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></symbol>
+    <symbol id="i-tiktok" viewBox="0 0 24 24"><path d="M15 3v11.5a3.5 3.5 0 1 1-3.5-3.5"/><path d="M15 3c.4 2.6 2.2 4.4 5 4.6"/></symbol>
+  </svg>
 
-<header class="topbar" id="topbar">
-  <div class="container topbar__inner">
-    <a href="#top" class="brand">
-      <img src="assets/logo.png" alt="FF Cash BD" class="brand__logo">
-    </a>
-    <nav class="nav" id="nav">
-      <a href="#tournaments">টুর্নামেন্ট</a>
-      <a href="#mission">মিশন</a>
-      <a href="#reviews">রিভিউ</a>
-      <a href="#download" class="nav__cta">ডাউনলোড</a>
-    </nav>
-    <button class="nav-toggle" id="navToggle" aria-label="মেনু খুলুন" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
-  </div>
-</header>
+  <!-- ============ 1. TOP (light) ============ -->
+  <header class="hero pb-5" id="top">
+    <div class="container py-3">
+      <a class="brand" href="#top" aria-label="FF Cash BD home">
+        <img class="brand-logo" src="assets/img/logo.webp" alt="FF Cash BD logo" width="49" height="52">
+        <span class="brand-name">FF Cash BD</span>
+      </a>
+    </div>
 
-<main id="top">
+    <div class="container text-center pt-2 pb-3">
+      <span class="pill-badge"><svg class="ico" aria-hidden="true"><use href="#i-trophy"/></svg> BANGLADESHI BEST #FREE FIRE TOURNAMENTS APP</span>
+      <h1 class="hero-title">Play. Win.<br>Get cash.</h1>
+      <p class="hero-sub mx-auto">Play Free Fire tournaments, easy to earn real prizes and Top the Leaderboard win Prize easily.</p>
 
-  <section class="hero" id="download">
-    <div class="container hero__inner">
-
-      <p class="hero__eyebrow" data-reveal>
-        <span class="dot"></span> নতুন সিজন চালু হয়েছে
-      </p>
-
-      <h1 class="hero__title" data-reveal>
-        সপ্তাহের সেরা <span class="hero__title-accent">ফ্রি ফায়ার টুর্নামেন্ট</span> এখনই শুরু হচ্ছে! <span class="hero__emoji">🔥🐉</span>
-      </h1>
-
-      <div class="hero__badge" data-reveal>
-        <img src="assets/logo.png" alt="FF Cash BD লোগো" class="hero__logo-img">
+      <div class="d-flex flex-wrap justify-content-center gap-3 mt-4">
+        <a href="#" class="btn btn-ff"><svg class="ico me-2" aria-hidden="true"><use href="#i-phone"/></svg>Download App</a>
+        <a href="#" class="btn btn-ff-outline"><svg class="ico me-2" aria-hidden="true"><use href="#i-globe"/></svg>Continue on Web</a>
       </div>
 
-      <div class="panel" data-reveal>
-        <span class="pill">BATTLE ARENA</span>
+      <div class="row g-3 justify-content-center mt-4 mx-auto" style="max-width:640px">
+        <div class="col-4 hero-perk">
+          <svg class="ico" aria-hidden="true"><use href="#i-coin"/></svg>
+          <h2>Quick<br>Withdrawals</h2>
+        </div>
+        <div class="col-4 hero-perk">
+          <svg class="ico" aria-hidden="true"><use href="#i-ticket"/></svg>
+          <h2>Secure<br>Room Codes</h2>
+        </div>
+        <div class="col-4 hero-perk">
+          <svg class="ico" aria-hidden="true"><use href="#i-headset"/></svg>
+          <h2>24/7<br>support</h2>
+        </div>
+      </div>
 
-        <p class="panel__desc">
-          বাংলাদেশের সেরা ফ্রি ফায়ার টুর্নামেন্ট অ্যাপ — এখনই ডাউনলোড করুন এবং খেলুন!
-        </p>
+      <div class="stats-card mt-4" role="group" aria-label="Platform statistics">
+        <div class="stat">
+          <div class="stat-num"><span class="count" data-target="92466" data-suffix="+">0</span></div>
+          <div class="stat-label">Players</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num"><span class="count" data-target="43370" data-suffix="+">0</span></div>
+          <div class="stat-label">Matches</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num"><span class="count" data-target="100" data-suffix="%">0</span></div>
+          <div class="stat-label">Fair Play</div>
+        </div>
+      </div>
+    </div>
+  </header>
 
-        <div class="panel__actions">
-          <a href="https://drive.usercontent.google.com/download?id=1YxsLt2ByOj4x9z3vLp5N_AjYodF7BhIC&export=download&confirm=t&uuid=4718a4e4-5a09-4995-98eb-5e61040ab45d" class="btn btn--primary" id="downloadBtn">
-            <span>ডাউনলোড করুন</span>
+  <!-- ============ 2. FEATURES (deep) ============ -->
+  <section class="features py-5" id="features">
+    <div class="container py-4">
+      <div class="text-center mb-5">
+        <span class="section-pill"><svg class="ico" aria-hidden="true"><use href="#i-sparkles"/></svg> FEATURES</span>
+        <h2 class="section-title">Why is FF Cash BD Best</h2>
+        <p class="section-sub">Experience 100% fair gameplay on the FF Cash BD platform, along with 24/7 support via Telegram.</p>
+      </div>
+
+      <div class="row g-4 mx-auto" style="max-width:960px">
+        <div class="col-md-6">
+          <article class="ff-card">
+            <div class="icon-box ic-green"><svg class="ico" aria-hidden="true"><use href="#i-cash"/></svg></div>
+            <h3>Real Prizes Money</h3>
+            <p>Win real cash, immediately added to your balance. Fastest Withdrawals to BKash and Nagad</p>
+          </article>
+        </div>
+        <div class="col-md-6">
+          <article class="ff-card">
+            <div class="icon-box ic-orange"><svg class="ico" aria-hidden="true"><use href="#i-diagram"/></svg></div>
+            <h3>Everyday Tournaments</h3>
+            <p>Solo, Duo, and Squad Including CS, Lone Wolf, Special match, Free match Available Everyday. Right time room open and start match.</p>
+          </article>
+        </div>
+        <div class="col-md-6">
+          <article class="ff-card">
+            <div class="icon-box ic-red"><svg class="ico" aria-hidden="true"><use href="#i-bolt"/></svg></div>
+            <h3>Easy Joining</h3>
+            <p>Quick Register and Easy to join match. Without delay, without waiting.</p>
+          </article>
+        </div>
+        <div class="col-md-6">
+          <article class="ff-card">
+            <div class="icon-box ic-yellow"><svg class="ico" aria-hidden="true"><use href="#i-shield"/></svg></div>
+            <h3>Real Player and Fairness</h3>
+            <p>Secure every match and publish results. Play every match with fair player.</p>
+          </article>
+        </div>
+        <div class="col-md-6">
+          <article class="ff-card">
+            <div class="icon-box ic-blue"><svg class="ico" aria-hidden="true"><use href="#i-chart"/></svg></div>
+            <h3>Leaderboards Ranking</h3>
+            <p>Player ranking in FF Cash BD Tournament platform. The top 1, 2, 3 players on the leaderboard each month will be rewarded.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 3. GETTING STARTED (light) ============ -->
+  <section class="steps py-5" id="how-it-works">
+    <div class="container py-4">
+      <div class="text-center mb-5">
+        <span class="section-pill"><svg class="ico" aria-hidden="true"><use href="#i-gear"/></svg> GETTING STARTED</span>
+        <h2 class="section-title">How to use it</h2>
+        <p class="section-sub">Get started in just 3 simple steps.</p>
+      </div>
+
+      <div class="row g-3 g-lg-4 mx-auto" style="max-width:960px">
+        <div class="col-md-4">
+          <div class="step-card">
+            <div class="step-num">1</div>
+            <h3>Create Account</h3>
+            <p>Create a free account in under 1 Minute. No surprise costs, no paid plans.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="step-card">
+            <div class="step-num">2</div>
+            <h3>Join a Match</h3>
+            <p>Choose a tournament match, pay the entry fee, and get your code before the match starts.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="step-card">
+            <div class="step-num">3</div>
+            <h3>Win &amp; Withdraw</h3>
+            <p>Your money is added to your account right after results. Send it to your bKash or Nagad in minutes.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="cta-card mt-5 mx-auto" style="max-width:1000px">
+        <h2>Ready to <span>play?</span></h2>
+        <p>Play with thousands of other players and start winning real prizes today.</p>
+        <a href="#" class="btn btn-ff btn-lg"><svg class="ico me-2" aria-hidden="true"><use href="#i-phone"/></svg>Download App</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 4. FOOTER (deep) ============ -->
+  <footer class="site-footer pt-5">
+    <div class="container pt-2">
+      <div class="row g-4">
+        <div class="col-lg-5">
+          <a class="brand brand-sm mb-3" href="#top" aria-label="FF Cash BD home">
+            <img class="brand-logo" src="assets/img/logo.png" alt="FF Cash BD logo" width="45" height="48">
+            <span class="brand-name">FF Cash BD</span>
           </a>
-        </div>
-
-        <p class="panel__meta">Android APK v1.1.0 &nbsp;•&nbsp; Size: 6 MB</p>
-
-        <div class="video-embed" data-reveal>
-          <div class="video-embed__frame">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/FPsIouvYRio?si=17o-W5JmwryTpPdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          </div>
-          <p class="video-embed__title">কিভাবে অ্যাপ ডাউনলোড এবং ইন্সটল করে।</p>
-        </div>
-
-        <div class="stats" id="stats">
-          <div class="stat" data-count="500" data-suffix="+">
-            <span class="stat__num">0</span>
-            <span class="stat__label">সক্রিয় গেমার</span>
-          </div>
-          <div class="stat" data-count="50" data-suffix="+">
-            <span class="stat__num">0</span>
-            <span class="stat__label">দৈনিক টুর্নামেন্ট</span>
-          </div>
-          <div class="stat" data-count="5000" data-prefix="৳ ">
-            <span class="stat__num">৳ 0</span>
-            <span class="stat__label">সাপ্তাহিক প্রাইজ (৳)</span>
+          <p class="mt-3">FF Cash BD is Bangladesh's best site for Free Fire tournaments. Play every day, win real money, and become the best player.</p>
+          <div class="social mt-3">
+            <a href="#" aria-label="Telegram"><svg class="ico" aria-hidden="true"><use href="#i-telegram"/></svg></a>
+            <a href="https://m.youtube.com/@ffcashbd" aria-label="YouTube"><svg class="ico" aria-hidden="true"><use href="#i-youtube"/></svg></a>
+            <a href="#" aria-label="Facebook"><svg class="ico" aria-hidden="true"><use href="#i-facebook"/></svg></a>
+            <a href="#" aria-label="TikTok"><svg class="ico" aria-hidden="true"><use href="#i-tiktok"/></svg></a>
           </div>
         </div>
-      </div>
-
-      <div class="phone-wrap" data-reveal>
-        <div class="phone">
-          <div class="phone__notch"></div>
-          <div class="phone__screen">
-            <div class="phone__status">
-              <img src="assets/logo.png" alt="" class="phone__status-logo">
-              <span>FF CASH BD</span>
-              <span class="phone__battery">100% <i>⚡</i></span>
-            </div>
-
-            <p class="phone__section-title">ACTIVE TOURNAMENTS</p>
-
-            <div class="match-card match-card--live">
-              <div class="match-card__top">
-                <span class="tag">Squad Match</span>
-                <span class="tag tag--live">LIVE</span>
-              </div>
-              <p class="match-card__name">Bermuda Rush Hour</p>
-              <div class="match-card__bottom">
-                <span class="prize">৳ 5,000</span>
-                <button class="join join--red">JOIN</button>
-              </div>
-            </div>
-
-            <div class="match-card">
-              <div class="match-card__top">
-                <span class="tag">Solo Match</span>
-                <span class="tag tag--soon">Starting in 15m</span>
-              </div>
-              <p class="match-card__name">Kalahari Clash</p>
-              <div class="match-card__bottom">
-                <span class="prize">৳ 1,500</span>
-                <button class="join join--purple">JOIN</button>
-              </div>
-            </div>
-
-            <div class="match-card match-card--dim">
-              <div class="match-card__top">
-                <span class="tag">Duo Match</span>
-                <span class="tag tag--soon">Starting in 40m</span>
-              </div>
-              <p class="match-card__name">Purgatory Showdown</p>
-              <div class="match-card__bottom">
-                <span class="prize">৳ 2,000</span>
-                <button class="join join--purple">JOIN</button>
-              </div>
-            </div>
-          </div>
-          <div class="phone__home-bar"></div>
+        <div class="col-6 col-lg-3 offset-lg-1">
+          <div class="foot-head">Platform</div>
+          <ul>
+            <li><a href="#">Web Application</a></li>
+            <li><a href="#">Download App</a></li>
+          </ul>
         </div>
-      </div>
-
-    </div>
-  </section>
-
-  <section class="section" id="tournaments">
-    <div class="container">
-      <p class="section__eyebrow">টুর্নামেন্ট</p>
-      <h2 class="section__title">প্রতিদিন নতুন ম্যাচ, প্রতিদিন নতুন সুযোগ</h2>
-      <div class="cards-grid">
-        <div class="feature-card">
-          <span class="feature-card__icon">🎯</span>
-          <h3>সলো, ডুয়ো ও স্কোয়াড</h3>
-          <p>আপনার পছন্দমতো মোডে টুর্নামেন্টে অংশ নিন এবং নিজের দক্ষতা প্রমাণ করুন।</p>
-        </div>
-        <div class="feature-card">
-          <span class="feature-card__icon">⚡</span>
-          <h3>ইনস্ট্যান্ট রেজিস্ট্রেশন</h3>
-          <p>কয়েক সেকেন্ডে ম্যাচে জয়েন করুন, লাইনআপ ঠিক করার ঝামেলা নেই।</p>
-        </div>
-        <div class="feature-card">
-          <span class="feature-card__icon">💰</span>
-          <h3>দ্রুত পেমেন্ট</h3>
-          <p>জেতা পুরস্কার সরাসরি আপনার ওয়ালেটে জমা হয়, উইথড্র করুন যেকোনো সময়।</p>
+        <div class="col-6 col-lg-3 col-xl-2">
+          <div class="foot-head">Help</div>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Telegram</a></li>
+          </ul>
         </div>
       </div>
     </div>
-  </section>
-
-  <section class="section section--alt" id="mission">
-    <div class="container mission">
-      <div class="mission__text">
-        <p class="section__eyebrow">মিশন</p>
-        <h2 class="section__title">প্রতিটি ম্যাচ থেকে ইনকামের সুযোগ তৈরি করাই আমাদের লক্ষ্য</h2>
-        <p class="mission__desc">
-          FF Cash BD তৈরি হয়েছে বাংলাদেশের ফ্রি ফায়ার কমিউনিটিকে একটি নিরাপদ, স্বচ্ছ এবং পুরস্কারপূর্ণ প্ল্যাটফর্ম দেওয়ার জন্য।
-          প্রতিদিন শত শত টুর্নামেন্ট আয়োজন করে আমরা প্রতিটি গেমারকে তার দক্ষতা কাজে লাগানোর সুযোগ দিতে চাই।
-        </p>
-        <ul class="mission__list">
-          <li>✔ যাচাইকৃত ও ফেয়ার-প্লে ম্যাচ</li>
-          <li>✔ ২৪/৭ সাপোর্ট টিম</li>
-          <li>✔ সহজ ডিপোজিট ও উইথড্র</li>
-        </ul>
+    <div class="foot-bar mt-4 py-3">
+      <div class="container d-flex flex-wrap justify-content-between gap-2">
+        <span>&copy; <span id="year">2026</span> FF Cash BD. All rights reserved.</span>
+        <span>Made with <svg class="ico heart" aria-hidden="true"><use href="#i-heart"/></svg> for Bangladeshi gamers</span>
       </div>
     </div>
-  </section>
+  </footer>
 
-  <section class="section" id="reviews">
-    <div class="container">
-      <p class="section__eyebrow">রিভিউ</p>
-      <h2 class="section__title">গেমাররা যা বলছেন</h2>
-      <div class="cards-grid">
-        <div class="review-card">
-          <p class="review-card__stars">★★★★★</p>
-          <p class="review-card__text">প্রতিদিন টুর্নামেন্ট থাকে, প্রাইজও সময়মতো পাই। অসাধারণ অ্যাপ!</p>
-          <p class="review-card__name">— রাকিব, ঢাকা</p>
-        </div>
-        <div class="review-card">
-          <p class="review-card__stars">★★★★★</p>
-          <p class="review-card__text">স্কোয়াড ম্যাচগুলো খুব ফেয়ার, কোনো ল্যাগ বা সমস্যা হয় না।</p>
-          <p class="review-card__name">— সাদিয়া, চট্টগ্রাম</p>
-        </div>
-        <div class="review-card">
-          <p class="review-card__stars">★★★★★</p>
-          <p class="review-card__text">উইথড্র সিস্টেম খুবই দ্রুত, ৫ মিনিটের মধ্যে টাকা চলে আসে।</p>
-          <p class="review-card__name">— তানভীর, সিলেট</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="cta-band">
-    <div class="container cta-band__inner">
-      <div>
-        <h2>আজই যোগ দিন FF Cash BD-তে</h2>
-        <p>ডাউনলোড করুন, রেজিস্ট্রেশন করুন এবং প্রথম ম্যাচেই জয়ের চেষ্টা করুন।</p>
-      </div>
-      <a href="#" class="btn btn--primary btn--lg">ডাউনলোড করুন</a>
-    </div>
-  </section>
-
-</main>
-
-<footer class="footer">
-  <div class="container footer__inner">
-    <div class="footer__brand">
-      <img src="assets/logo.png" alt="FF Cash BD" class="footer__logo">
-      <p>© <span id="year"></span> FF Cash BD. সর্বস্বত্ব সংরক্ষিত।</p>
-    </div>
-    <nav class="footer__nav">
-      <a href="#tournaments">টুর্নামেন্ট</a>
-      <a href="#mission">মিশন</a>
-      <a href="#reviews">রিভিউ</a>
-      <a href="#download">ডাউনলোড</a>
-    </nav>
-  </div>
-</footer>
-
-<div class="toast" id="toast"></div>
-
-<script src="js/script.js"></script>
+  <!-- External: Bootstrap 5 JS bundle + project script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
